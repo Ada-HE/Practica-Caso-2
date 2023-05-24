@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de evento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Satisfacción de los asistentes del evento</h1>
+    
+    <form name="Conferencia de usuarios" method="post" action="/send.php">
+        <label for="Name">Ingrese nombre completo</label>
+        <input type="text" name="" value="" id=""/><br>     
+        <label for="Name">Ingrese su correo electronico</label>
+        <input type="email" name="" id=""/><br>
+        <label for="Name">Ingrese su número telefonico</label>
+        <input type="text" name="" value="" id=""/><br>
+        <label for="Name">Seleccione su fecha de nacimiento</label>
+        <input type="date" name="Fecha" min="1990-01-01" max="2023-12-31" step="2"/><br> 
+        <label for="Name">Ingrese su edad</label>
+        <input type="number" id="Edad" name="Edad" min="15" max="60">
+        <p>
+            Su genero es:
+        </p>
+        <select>
+            <option value="Genero">Genero</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer</option>
+        </select>
+        <p>
+            Lo que le gusto del evento fue<br>
+            <input type="checkbox" name="Música">Música<br>
+            <input type="checkbox" name="Comida">Comida<br>
+            <input type="checkbox" name="Ambiente">Ambiente<br>
+        </p>   
+        <p>
+            <p>
+                Su evaluación del evento fue:..
+            </p>
+        <select>
+            Seleccione su evaluacion del evento
+            <option value="Evaluación">Evaluación</option>
+            <option value="Excelente">Excelente</option>
+            <option value="Bueno">Bueno</option>
+            <option value="Regular">Regular</option>
+            <option value="Malo">Malo</option>
+        </select>
+        <p>
+            <label for="Name">Comentarios o segerencias sobre el evento</label>
+        </p>
+
+        <p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

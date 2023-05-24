@@ -1,0 +1,12 @@
+body {
+    background-color: tan;
+    text-align: center;
+}
+label{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
